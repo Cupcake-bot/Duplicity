@@ -45,4 +45,4 @@ client.once(`ready`, () => {
 
 
 
-client.login(`Nzc0NzcwMjMyMzgzNjM1NDg2.X6cnAQ.FpyRri6S0l0ZC0qLH0omT0EdUuo`);
+client.login(`<bot token will go here>`);
