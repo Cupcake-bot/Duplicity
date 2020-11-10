@@ -1,9 +1,9 @@
 const Discord = require(`discord.js`);
-
+//loading required libraries
 const client = new Discord.Client();
 
 const prefix = `dp!`;
-
+//the prefix for commands
 const fs = require(`fs`);
 // this is the command handler, all commands are stored in the Commands folder, this tells the bot to only check .js files in that folder.
 client.commands = new Discord.Collection();
@@ -44,5 +44,5 @@ client.once(`ready`, () => {
 
 
 
-
+//Bot token for discord api login
 client.login(`<bot token will go here>`);
